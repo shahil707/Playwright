@@ -1,2 +1,2 @@
 console.log("shahil");
-console.log("welcome")
+console.log1("welcome")

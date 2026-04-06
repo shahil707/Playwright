@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Forgot Password Flow', async ({ page }) => {
   // 1. Navigate to the site
-  await page.goto('https://the-internet.herokuapp.com/');
+  await page.goto('https://the-internet.herokuapp.coms/');
 
   // 2. Click on Forgot Password
   await page.getByText('Forgot Password').click();
